@@ -1,0 +1,118 @@
+/*===============================
+=            ARCHIDEENPOOL            =
+===============================*/
+// three greys and 2 whites in the project
+// h1 and h4 are fuckin up may BOLD styling
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.reset {
+  margin: 0;
+  padding: 0;
+}
+
+.home {
+  margin: 0;
+  padding: 0;
+  font-family: "Arial Narrow", Arial, sans-serif;
+  height: 100%;
+  background: url("../../img/home-background.jpg") $c-main-background no-repeat;
+  background-size: 100% auto;
+  background-position: 50% -50px;
+  @include media-query("desktop") {
+    background-size: 1440px;
+  }
+}
+
+.site_header {
+  background: $c-main-background;
+  position: absolute;
+  top: 0;
+  font-style: oblique;
+  height: 95px;
+  width: 100%;
+  color: $c-header-footer-text;
+}
+
+.site_header-title {
+  position: relative;
+  top: 8px;
+  right: -230px;
+}
+
+.site_header-site_name {
+  margin: 0;
+}
+
+.site_header-page_name {
+  position: relative;
+  right: -144px;
+  margin: -15px 0 0 0;
+  font-weight: 100;
+}
+
+.home-body {
+  height: 100%;
+  color: $c-main-text;
+  position: relative;
+  top: 10px;
+  max-width: 1440px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.home-login {
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  bottom: 0%;
+  margin-bottom: 170px;
+}
+
+
+
+#login-input {
+  visibility: hidden;
+}
+
+input[type=login] {
+  padding: 5px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  display: block;
+  max-width: 400px;
+
+}
+
+.site_footer {
+  padding: 5px 15px 20px 25px;
+  overflow: hidden;
+  background: $c-main-background;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  color: $c-header-footer-text;
+}
+
+.site_footer-information {
+  float: left;
+  margin: 10px 9% 0 0;
+}
+
+.site_footer-information_list {
+  list-style-type: none;
+  margin-bottom: 0;
+}
+
+.site_footer-information_list-entries {
+  text-decoration: none;
+  color: $c-header-footer-text;
+}
+
+/*=====  End of ARCHIDEENPOOL  ======*/
