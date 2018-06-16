@@ -1,4 +1,4 @@
-# Isobar Basic Template
+# Archideenpool
 
 This is a basic template for small projects, or any non-CMS/WordPress projects. The folder stucture is similar to our WordPress theme. It uses Gulp to compile assets.
 
